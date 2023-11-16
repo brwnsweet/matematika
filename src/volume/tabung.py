@@ -1,2 +1,2 @@
-def volume_tabung(r, t):
+def volume (r, t):
     return 22/7 * r * r * t

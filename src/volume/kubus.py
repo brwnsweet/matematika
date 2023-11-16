@@ -1,2 +1,2 @@
-def volume_kubus(s):
+def volume (s):
     return s * s * s

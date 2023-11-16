@@ -1,9 +1,14 @@
-from luas import lingkaran, persegi, segitiga
-print(lingkaran.luas_lingkaran(10))
-print(persegi.luas_persegi(2))
-print(segitiga.luas_segitiga(3,4))
+from luas.lingkaran import luas as luas_lingkaran
+print('luas lingkaran=',luas_lingkaran(21))
+from luas.persegi import luas as luas_persegi
+print(luas_persegi(10))
+from luas.segitiga import luas as luas_segitiga
+print(luas_segitiga(2,4))
 
-from volume import bola, kubus, tabung
-print(bola.volume_bola(6))
-print(kubus.volume_kubus(8))
-print(tabung.volume_tabung(4,10))
+from volume.bola import volume as volume_bola
+from volume.kubus import volume as volume_kubus
+from volume.tabung import volume as volume_tabung
+print(volume_bola(12))
+print(volume_kubus(10))
+print(volume_tabung(5,8))
+
