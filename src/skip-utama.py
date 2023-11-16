@@ -10,5 +10,5 @@ from volume.kubus import volume as volume_kubus
 from volume.tabung import volume as volume_tabung
 print(volume_bola(12))
 print(volume_kubus(10))
-print(volume_tabung(5,8))
+print(volume_tabung(5,6))
 
